@@ -1758,6 +1758,10 @@ lib.composeManyExtensions [
         ];
       });
 
+      polars = super.polars.override (old: {
+        preferWheel = true;
+      });
+
       portend = super.portend.overridePythonAttrs (
         old: {
           # required for the extra "toml" dependency in setuptools_scm[toml]
