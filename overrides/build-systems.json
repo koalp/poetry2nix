@@ -17,6 +17,9 @@
   "absolufy-imports": [
     "setuptools"
   ],
+  "accessible-pygments": [
+    "setuptools"
+  ],
   "accuweather": [
     "setuptools"
   ],
