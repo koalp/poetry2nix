@@ -16969,7 +16969,8 @@
     "setuptools"
   ],
   "sphinx-autobuild": [
-    "setuptools"
+    "setuptools",
+    "flit-core"
   ],
   "sphinx-autodoc-typehints": [
     "setuptools",
