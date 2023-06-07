@@ -16976,7 +16976,9 @@
     "setuptools"
   ],
   "sphinx-autodoc-typehints": [
-    "setuptools"
+    "setuptools",
+    "hatchling",
+    "hatch-vcs"
   ],
   "sphinx-automodapi": [
     "cython"
