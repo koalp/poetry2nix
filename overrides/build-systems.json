@@ -6004,10 +6004,6 @@
   "furl": [
     "setuptools"
   ],
-  "furo": [
-    "flitBuildHook",
-    "setuptools"
-  ],
   "fuse": [
     "setuptools"
   ],
@@ -12433,9 +12429,6 @@
     "poetry-core"
   ],
   "pydash": [
-    "setuptools"
-  ],
-  "pydata-sphinx-theme": [
     "setuptools"
   ],
   "pydbus": [

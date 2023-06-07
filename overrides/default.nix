@@ -677,6 +677,10 @@ lib.composeManyExtensions [
         VERSION = old.version;
       });
 
+      furo = super.furo.override {
+        preferWheel = true;
+      };
+
       gdal =
         let
           # Build gdal without python bindings to prevent version mixing
@@ -1903,6 +1907,10 @@ lib.composeManyExtensions [
           ];
         }
       );
+
+      pydata-sphinx-theme = super.pydata-sphinx-theme.override {
+        preferWheel = true;
+      };
 
       pyfftw = super.pyfftw.overridePythonAttrs (old: {
         buildInputs = (old.buildInputs or [ ]) ++ [
