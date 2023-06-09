@@ -18607,6 +18607,9 @@
   "types-urllib3": [
     "setuptools"
   ],
+  "types-xmltodict": [
+    "setuptools"
+  ],
   "typesentry": [
     "setuptools"
   ],
