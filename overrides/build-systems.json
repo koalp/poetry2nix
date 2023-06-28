@@ -18568,6 +18568,9 @@
   "types-pyopenssl": [
     "setuptools"
   ],
+  "types-pyserial": [
+    "setuptools"
+  ],
   "types-python-dateutil": [
     "setuptools"
   ],
